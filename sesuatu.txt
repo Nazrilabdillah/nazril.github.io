@@ -1,0 +1,5 @@
+Merah Utama: #FF0000 (merah muda) atau #B22222 (merah tua).
+Warna Teks: Gunakan putih (#FFFFFF) untuk teks di atas latar belakang merah.
+Warna Latar Belakang: Gunakan putih (#FFFFFF) sebagai latar belakang di sebagian besar situs Anda, atau kombinasikan dengan merah sesuai kebutuhan.
+Warna Aksen: Gunakan merah tua atau merah muda untuk aksen, seperti tombol "Beli" atau ikon penting lainnya.
+Warna Lainnya: Anda juga dapat mempertimbangkan abu-abu (#333333) atau abu-abu tua (#666666) untuk elemen tambahan seperti footer atau bagian lainnya.
