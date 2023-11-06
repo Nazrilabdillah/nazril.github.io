@@ -4,7 +4,7 @@ async function dataRandomProduk(){
     const dataRandom = await FetchData()
     dataRandom.map((dataRandom,key)=>{
         randomElem.innerHTML += `<div class="cart">
-        <img src=${dataRandom.image} alt="">
+        <img src=${dataRandom.images[0]} alt="">
         <ul >
         <h3 class"isi">${dataRandom.title.split(" ").slice(0,2).join(" ")}</h3>
         <h4 class="isi">harga Rp${dataRandom.price}00</h4>

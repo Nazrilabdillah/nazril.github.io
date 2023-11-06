@@ -15,10 +15,10 @@
     <div class="nav-link">
       <ul class="nav-com">
         <li class="nav-a">
-          <a href="#">Home</a>
+          <a href="../../index.html">Home</a>
         </li>
         <li class="nav-a">
-          <a href="#" class="a">semua produk</a>
+          <a href="#" class="a">category produk</a>
         </li>
         <li class="nav-a">
           <a href="#">tentang kami</a>
@@ -27,11 +27,8 @@
     </div>
     <div class="nav-extra">
       <ul class="nav-icon">
-        <li class="nav-menu" onclick="toggleSearch('open')">
-          <a class="search-icon1 searchToggle" data-feather ="search"></a>
-        </li>
-        <li class="nav-menu" onclick="toggleSearch('close')">
-          <a class="close-icon1 searchToggle" data-feather ="x"></a>
+        <li class="nav-menu" onclick="redirectSearch()">
+          <a class="search-icon1 searchToggle" data-feather ="search" href="../../pages/search/index.html"></a>
         </li>
         <li class="nav-menu">
           <a data-feather ="shopping-cart"></a>
@@ -84,6 +81,7 @@
  <script>
   feather.replace();
 </script>
-<script src="populerProduk.js" type="modul"></script>
+<script src="populerProduk.js" type="module"></script>
+<script src="item.js"></script>
 </body>
 </html>

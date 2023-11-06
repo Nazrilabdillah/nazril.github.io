@@ -10,7 +10,7 @@ async function mapDataProduk(){
     <h3 class="content">harga Rp${produk.price}</h3>
     <button class="content btn-cart">masukan ke cart</button>
    </li>
-    <img src=${produk.image} alt="">
+    <img src=${produk.images[0]} alt=${produk.title}>
     </div>
     `
   })

@@ -23,6 +23,7 @@ function openSearch(){
  searchIcon.style.display ="none"
  closeSearchIcon.style.display ="block"
 }
+openSearch()
 function closeSearch(){
   parrentSearch.innerHTML=""
  searchIcon.style.display ="block"
